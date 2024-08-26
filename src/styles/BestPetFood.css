@@ -1,0 +1,24 @@
+.title-bg {
+  background-image: url("../../public//assets/icons/sec.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 2% 10%;
+}
+
+@media (max-width: 640px) {
+  .title-bg {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-bg {
+    background-position: 5% 10%;
+  }
+}
+
+@media (max-width: 968px) {
+  .title-bg {
+    background-position: 31% 10%;
+  }
+}
