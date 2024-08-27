@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Sophia Martinez",
+    "position": "Lead Designer",
+    "image": "https://i.postimg.cc/8PTQV9rd/t-1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Emily Johnson",
+    "position": "Project Manager",
+    "image": "https://i.postimg.cc/V6HrcnKn/t-2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Isabella Rossi",
+    "position": "Senior Manager",
+    "image": "https://i.postimg.cc/xqVd0RMJ/t-3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Olivia Chen",
+    "position": "Marketing Specialist",
+    "image": "https://i.postimg.cc/NG65gKp3/t-4.webp"
+  }
+]

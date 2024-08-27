@@ -1,8 +1,18 @@
+"use client";
+
+import Products from "@/components/Shop/Products";
+import ShopBanner from "@/components/Shop/ShopBanner";
+import { usePathname } from "next/navigation";
 
 const ShopPage = () => {
+    const pathname = usePathname();
     return (
         <div>
-            <h1>Shop Page</h1>
+            {/* Shop banner section */}
+            <ShopBanner pathname={pathname} />
+
+            {/* Shop Section */}
+            <Products/>
         </div>
     );
 };
