@@ -11,7 +11,7 @@ const BestDeal = () => {
                     <div className="w-full lg:w-1/2">
                         <Image
                             src={deal}
-                            alt=""
+                            alt="Best deal image"
                             className="object-cover"
                         />
                     </div>

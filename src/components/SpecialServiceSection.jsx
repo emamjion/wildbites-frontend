@@ -14,6 +14,7 @@ const SpecialServiceSection = () => {
                             src={f1}
                             width={46}
                             height={34}
+                             alt="Free Shipping"
                         />
                         <div >
                             <h1 className="text-2xl mb-1 font-medium">Free Shipping</h1>
@@ -27,6 +28,7 @@ const SpecialServiceSection = () => {
                             src={f2}
                             width={43}
                             height={34}
+                             alt="Card Payments"
                         />
                         <div>
                             <h1 className="text-2xl mb-1 font-medium">Card Payments</h1>
@@ -40,6 +42,7 @@ const SpecialServiceSection = () => {
                             src={f3}
                             width={39}
                             height={39}
+                             alt="Easy Refunds"
                         />
                         <div>
                             <h1 className="text-2xl mb-1 font-medium">Easy Refunds</h1>
@@ -53,6 +56,7 @@ const SpecialServiceSection = () => {
                             src={f4}
                             width={36}
                             height={39}
+                            alt="24/7 Support"
                             
                         />
                         <div>

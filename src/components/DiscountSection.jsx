@@ -17,7 +17,7 @@ const DiscountSection = () => {
                             src={discount1}
                             width={370}
                             height={247}
-                            alt=""
+                            alt="Dicount image"
                         />
                     </div>
                     <div className="absolute top-12 left-8 z-20">
@@ -32,7 +32,7 @@ const DiscountSection = () => {
                             src={discount2}
                             width={370}
                             height={247}
-                            alt=""
+                            alt="Discount image"
                         />
                     </div>
                     <div className="absolute top-12 left-8 z-20">
@@ -47,7 +47,7 @@ const DiscountSection = () => {
                             src={discount3}
                             width={370}
                             height={247}
-                            alt=""
+                            alt="Discount image"
                         />
                     </div>
                     <div className="absolute top-12 left-8 z-20">

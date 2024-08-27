@@ -76,7 +76,7 @@ const Footer = () => {
                     <div className="text-white">
                         <h1 className="text-3xl font-semibold mb-5">Contact Info:</h1>
                         <p className="mb-8">
-                            <span>If you have any question. please contact us at</span> <span className="text-accent">wildbites@gmail.com</span>
+                            <span >If you have any question. please contact us at</span> <span className="text-accent">wildbites@gmail.com</span>
                         </p>
                         <div>
                             <div className="flex gap-4">
@@ -93,7 +93,7 @@ const Footer = () => {
                                     <FaMobile className="text-[#721b65] text-2xl"/>
                                 </div>
                                 <div>
-                                    <p>Have any Question</p>
+                                    <p className="text-accent font-semibold">Have any Question</p>
                                     <p>+880 1727 08 7717</p>
                                 </div>
                             </div>

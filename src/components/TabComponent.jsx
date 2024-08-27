@@ -17,7 +17,7 @@ const TabComponent = () => {
     return (
         <div className="my-12 md:my-16">
             {/* Tab button section */}
-            <div className="flex space-x-4 justify-center mb-4 p-6">
+            <div className="flex space-x-4 flex-wrap justify-center mb-4 p-6">
                 {
                     tabs.map((tab, index) => {
                         return <button 
@@ -50,7 +50,7 @@ const TabComponent = () => {
                                         width={270}
                                         height={320}
                                     />
-                                    <div className="absolute top-3 right-3 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
+                                    <div className="absolute top-3 right-20 lg:top-3 lg:right-3 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
                                         <PiHeartThin className="text-2xl "/>
                                     </div>
                                 </div>

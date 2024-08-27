@@ -23,7 +23,7 @@ const LatestBlogSection = () => {
                             <div>
                                 <Image
                                     src={blog.image}
-                                    alt=""
+                                    alt="blogs picture"
                                     width={350}
                                     height={250}
                                 />
