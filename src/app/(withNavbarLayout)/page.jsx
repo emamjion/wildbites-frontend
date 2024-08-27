@@ -2,6 +2,7 @@ import BestDeal from "@/components/BestDeal";
 import BestPetFood from "@/components/BestPetFood";
 import DiscountSection from "@/components/DiscountSection";
 import HeroSection from "@/components/HeroSection";
+import LatestBlogSection from "@/components/LatestBlogSection";
 import NewCollection from "@/components/NewCollection";
 import SpecialServiceSection from "@/components/SpecialServiceSection";
 
@@ -25,6 +26,11 @@ const HomePage = () => {
 
             {/* Best Deal section */}
             <BestDeal/>
+
+            {/* TODO:  Best Deal of the day section */}
+
+            {/* Latest blog section */}
+            <LatestBlogSection/>
         </div>
     );
 };

@@ -10,7 +10,7 @@ const DiscountSection = () => {
     return (
         <section className="container mx-auto pb-[90px]">
             {/* content container */}
-            <div className="flex gap-[20px]">
+            <div className="flex flex-col lg:flex-row flex-wrap lg:flex-nowrap gap-[20px]">
                 <div className="relative">
                     <div className="relative">
                         <Image

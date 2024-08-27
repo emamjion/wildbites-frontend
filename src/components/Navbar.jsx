@@ -56,7 +56,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* icon section */}
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-1.5">
                     <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
                         <CiSearch/>
                     </button>

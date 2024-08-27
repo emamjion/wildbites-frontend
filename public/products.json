@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.postimg.cc/fRnSpH6h/p-1.webp",
+    "title": "Joust Duffle Bag",
+    "price": "20.19",
+    "category": "BestSeller"
+  },
+  {
+    "id": "2",
+    "image": "https://i.postimg.cc/QCbDxdfD/p-2.webp",
+    "title": "Endeavor Daytripa",
+    "price": "33.00",
+    "category": "Trending"
+  },
+  {
+    "id": "3",
+    "image": "https://i.postimg.cc/9QShfSYD/p-3.webp",
+    "title": "Impulse Duffle",
+    "price": "20.19",
+    "category": "BestSeller"
+  },
+  {
+    "id": "4",
+    "image": "https://i.postimg.cc/qBQWRSkp/p-4.webp",
+    "title": "Driven Backpack",
+    "price": "25.00",
+    "category": "Trending"
+  },
+  {
+    "id": "5",
+    "image": "https://i.postimg.cc/3Jvj60fz/p-5.webp",
+    "title": "Fusion Backpack",
+    "price": "45.00",
+    "category": "BestSeller"
+  },
+  {
+    "id": "6",
+    "image": "https://i.postimg.cc/Mp4n89cD/p-6.webp",
+    "title": "Savvy Shoulder Tote",
+    "price": "30.00",
+    "category": "Trending"
+  },
+  {
+    "id": "7",
+    "image": "https://i.postimg.cc/Z515Q0gs/p-77.webp",
+    "title": "Voyage Yoga Bag",
+    "price": "39.00",
+    "category": "BestSeller"
+  },
+  {
+    "id": "8",
+    "image": "https://i.postimg.cc/P58t1TxW/p-8.webp",
+    "title": "Wayfarer Messenger Bag",
+    "price": "50.00",
+    "category": "Trending"
+  },
+  {
+    "id": "9",
+    "image": "https://i.postimg.cc/QCbDxdfD/p-2.webp",
+    "title": "Wayfarer Messenger Bag",
+    "price": "50.00",
+    "category": "Featured"
+  },
+  {
+    "id": "10",
+    "image": "https://i.postimg.cc/Z515Q0gs/p-77.webp",
+    "title": "Wayfarer Messenger Bag",
+    "price": "50.00",
+    "category": "Featured"
+  },
+  {
+    "id": "11",
+    "image": "https://i.postimg.cc/P58t1TxW/p-8.webp",
+    "title": "Wayfarer Messenger Bag",
+    "price": "50.00",
+    "category": "OnSell"
+  },
+  {
+    "id": "12",
+    "image": "https://i.postimg.cc/qBQWRSkp/p-4.webp",
+    "title": "Wayfarer Messenger Bag",
+    "price": "50.00",
+    "category": "OnSell"
+  }
+]

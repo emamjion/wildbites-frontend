@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "The Benefits of Raw Food for Pets",
+    "author": "John Doe",
+    "date": "2024-08-26",
+    "image": "https://i.postimg.cc/kgjf4zRr/1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Top 10 Nutritional Foods for Dogs",
+    "author": "Jane Smith",
+    "date": "2024-08-25",
+    "image": "https://i.postimg.cc/J0cQW2C2/2.webp"
+  },
+  {
+    "id": 3,
+    "title": "How to Select Right Food for Your Dog",
+    "author": "Alex Johnson",
+    "date": "2024-08-24",
+    "image": "https://i.postimg.cc/0yr7tQj3/3.webp"
+  }
+]
