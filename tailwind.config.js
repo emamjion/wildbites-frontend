@@ -29,13 +29,11 @@ module.exports = {
     
     extend: {
       colors: {
-        primary: "#ff8901",
-        secondary: "#fb923c",
-        
-        // accent: {
-        //   DEFAULT: "#ffd868",
-        //   hover: "#ffd842"
-        // }
+        primary: "#ffd868",        
+        accent: {
+          DEFAULT: "#ffd868",
+          hover: "#ffd842"
+        }
       },
       
       backgroundImage: {

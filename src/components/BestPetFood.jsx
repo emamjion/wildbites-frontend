@@ -12,7 +12,7 @@ const BestPetFood = () => {
                     {/* text container */}
                     <div className="lg:w-1/2 text-center lg:text-left">
                         <div className="title-bg">
-                            <h3 className="text-primary mb-2 text-lg uppercase">Best Product</h3>
+                            <h3 className="text-[#721b65] mb-2 text-base font-semibold tracking-widest uppercase">Best Product</h3>
                             <h1 className="text-5xl font-bold text-[#2c2c2c]">Best Pet Food</h1>
                         </div>
                         <div className="mt-12">
