@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import best from '../../public/assets/images/best.webp';
 import '../styles/BestPetFood.css';
 import Button from "./Button";
@@ -24,7 +25,9 @@ const BestPetFood = () => {
                             </p>
                         </div>
                         <div>
-                            <Button>Shop Now</Button>
+                            <Link href={'/shop'}>
+                                <Button>Shop Now</Button>
+                            </Link>
                         </div>
                     </div>
                     {/* image container */}

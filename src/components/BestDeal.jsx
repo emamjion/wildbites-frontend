@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import deal from '../../public/assets/images/deal.webp';
 import Button from "./Button";
 
@@ -22,7 +23,9 @@ const BestDeal = () => {
                             Unlock our best deal today! Get premium pet food at unbeatable prices, ensuring your furry friends receive top-quality nutrition. Limited time only!
                         </p>
                         <div>
-                            <Button>Show Now</Button>
+                            <Link href={'/shop'}>
+                                <Button>Show Now</Button>
+                            </Link>
                         </div>
                     </div>
                 </div>

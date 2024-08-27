@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { PiHeartThin } from "react-icons/pi";
+import Swal from "sweetalert2";
 
 const TabComponent = () => {
     const [products, setProducts] = useState([]);
@@ -14,6 +15,10 @@ const TabComponent = () => {
     const [activeTab, setActiveTab] = useState('All');
     const tabs = ['All', 'Trending', 'BestSeller', 'Featured', 'OnSell'];
     const filteredCards = activeTab === 'All' ? products : products.filter((card) => card.category === activeTab);
+
+    const handleHeartButton = () => {
+        Swal.fire("Product added!");
+    }
     return (
         <div className="my-12 md:my-16">
             {/* Tab button section */}
@@ -51,7 +56,7 @@ const TabComponent = () => {
                                         height={320}
                                     />
                                     <div className="absolute top-3 right-20 lg:top-3 lg:right-3 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
-                                        <PiHeartThin className="text-2xl "/>
+                                        <PiHeartThin onClick={handleHeartButton} className="text-2xl"/>
                                     </div>
                                 </div>
                                 <div className="mt-6 text-center">

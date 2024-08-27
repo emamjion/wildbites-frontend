@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import '../styles/HeroSection.css';
 import Button from './Button';
 const HeroSection = () => {
@@ -12,7 +13,9 @@ const HeroSection = () => {
                             Wildbites brings you nature&apos;s best flavors. Enjoy fresh, wild ingredients that make every meal an adventure.
                         </p>
                         <div>
+                           <Link href={'/shop'}>
                             <Button >Shop Now</Button>
+                           </Link>
                         </div>
                     </div>
                 </div>

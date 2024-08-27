@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const LatestBlogSection = () => {
@@ -36,7 +37,9 @@ const LatestBlogSection = () => {
                                 <div className="relative">
                                     <h1 className="text-3xl font-semibold mt-3 mb-5 text-[#2c2c2c] px-4">{blog.title}</h1>
                                     <div className="text-center a">
-                                        <button className="px-6 py-2 bg-accent rounded text-white hover:bg-[#721b65] duration-300">Read More</button>
+                                        <Link href={'/blogs'}>
+                                            <button className="px-6 py-2 bg-accent rounded text-white hover:bg-[#721b65] duration-300">Read More</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
