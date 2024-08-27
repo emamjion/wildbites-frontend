@@ -9,7 +9,7 @@ const HeroSection = () => {
                         <h3 className='text-primary text-xl tracking-wider font-medium mb-4'>100% Genue products</h3>
                         <h1 className='text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight lg:leading-snug text-white mb-4 md:mb-6'>Experience the Wild with Wildbites</h1>
                         <p className='mb-8 md:mb-12 text-white'>
-                            Wildbites brings you nature's best flavors. Enjoy fresh, wild ingredients that make every meal an adventure.
+                            Wildbites brings you nature&apos;s best flavors. Enjoy fresh, wild ingredients that make every meal an adventure.
                         </p>
                         <div>
                             <Button >Shop Now</Button>
