@@ -3,7 +3,6 @@ import { blogs } from "@/lib/blogs";
 import Image from "next/image";
 
 const BlogsPage = () => {
-    console.log(blogs);
     return (
         <div>
             {/* Blogs banner section */}

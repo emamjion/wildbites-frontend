@@ -41,10 +41,10 @@ const Navbar = () => {
         <>
             <nav className="container mx-auto flex justify-between items-center pt-8">
                 {/* logo section */}
-                <div className="text-2xl flex items-center gap-2 font-bold">
+                <Link href={'/'} className="text-2xl flex items-center gap-2 font-bold">
                     <FaCookieBite/>
                     <p>Wild<span className="text-primary">bites</span></p>
-                </div>
+                </Link>
                 {/* menu section */}
                 <div className="hidden md:block">
                     <ul className="flex items-center gap-6 ">

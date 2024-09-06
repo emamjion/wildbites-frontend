@@ -22,7 +22,7 @@ const TabComponent = () => {
     return (
         <div className="my-12 md:my-16">
             {/* Tab button section */}
-            <div className="flex space-x-4 flex-wrap justify-center mb-4 p-6">
+            <div className="flex flex-wrap space-x-4 justify-center mb-4 p-6">
                 {
                     tabs.map((tab, index) => {
                         return <button 
@@ -42,7 +42,7 @@ const TabComponent = () => {
                     filteredCards.map((card) => {
                         return (
                             <motion.div 
-                                className="" 
+                                className="w-full" 
                                 id={card.id}
                                 key={card.id}
                                 initial={{ opacity: 0, x: 10 }} 
@@ -54,8 +54,9 @@ const TabComponent = () => {
                                         alt="product image"
                                         width={270}
                                         height={320}
+                                        className="w-full"
                                     />
-                                    <div className="absolute top-3 right-20 lg:top-3 lg:right-3 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
+                                    <div className="absolute top-3 right-6 lg:top-3 lg:right-3 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
                                         <PiHeartThin onClick={handleHeartButton} className="text-2xl"/>
                                     </div>
                                 </div>

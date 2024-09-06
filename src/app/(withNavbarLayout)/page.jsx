@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import LatestBlogSection from "@/components/LatestBlogSection";
 import NewCollection from "@/components/NewCollection";
 import SpecialServiceSection from "@/components/SpecialServiceSection";
+import TrendingProducts from "@/components/TrendingProducts";
 
 const HomePage = () => {
     return (
@@ -28,6 +29,7 @@ const HomePage = () => {
             <BestDeal/>
 
             {/* TODO:  Best Deal of the day section */}
+            <TrendingProducts/>
 
             {/* Latest blog section */}
             <LatestBlogSection/>
