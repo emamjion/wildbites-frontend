@@ -28,7 +28,7 @@ const HomePage = () => {
             {/* Best Deal section */}
             <BestDeal/>
 
-            {/* TODO:  Best Deal of the day section */}
+            {/* Best Deal of the day section */}
             <TrendingProducts/>
 
             {/* Latest blog section */}

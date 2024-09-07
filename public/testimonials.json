@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alicey Morgan",
+    "rating": 5,
+    "description": "Wildbites offers an incredible selection of organic and wild products. The ordering process is smooth, and the delivery is always prompt. Highly recommended!",
+    "image": "https://i.postimg.cc/m26J8WJj/3.webp"
+  },
+  {
+    "id": 2,
+    "name": "Monica Helen",
+    "rating": 4,
+    "description": "The quality of the products on Wildbites is unmatched. I found everything I needed and more. My only wish is for more variety in the fruit section.",
+    "image": "https://i.postimg.cc/wBtmLLJF/2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Sophie Anderson",
+    "rating": 5,
+    "description": "I am amazed by the freshness of the wild products I received. The website is user-friendly, and the service is top-notch. I will definitely order again!",
+    "image": "https://i.postimg.cc/cCfjHvXL/1.webp"
+  },
+  {
+    "id": 4,
+    "name": "Michael Rodriguez",
+    "rating": 4,
+    "description": "Wildbites has quickly become my go-to for natural products. The delivery was fast, and everything was well-packed. A few items were out of stock, but overall, a great experience.",
+    "image": "https://i.postimg.cc/NMcRtL94/6.webp"
+  },
+  {
+    "id": 5,
+    "name": "Emily Clark",
+    "rating": 5,
+    "description": "I love the variety of wild and organic options available. The website is easy to navigate, and the customer support is excellent. Five stars all the way!",
+    "image": "https://i.postimg.cc/tJRP1fzn/5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Daniely Kim",
+    "rating": 4,
+    "description": "Great service and exceptional quality products. I especially appreciate the detailed descriptions and easy checkout process on Wildbites.",
+    "image": "https://i.postimg.cc/pX68Ts5y/4.webp"
+  }
+]

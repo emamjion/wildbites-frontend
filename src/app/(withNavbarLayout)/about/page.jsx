@@ -3,6 +3,7 @@ import AboutBanner from "@/components/About/AboutBanner";
 import AboutBestFood from "@/components/About/AboutBestFood";
 import TeamMember from "@/components/About/TeamMember";
 import SpecialServiceSection from "@/components/SpecialServiceSection";
+import Testimonials from "@/components/Testimonials";
 import { usePathname } from "next/navigation";
 
 const AboutPage = () => {
@@ -17,6 +18,9 @@ const AboutPage = () => {
 
             {/* Team member section */}
             <TeamMember/>
+
+            {/* Testimonials */}
+            <Testimonials/>
 
             {/* Special Features section */}
             <SpecialServiceSection/>

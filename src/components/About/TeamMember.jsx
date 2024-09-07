@@ -29,6 +29,7 @@ const TeamMember = () => {
                                             alt="Team member image"
                                             width={270}
                                             height={300}
+                                            className="w-full"
                                         />
                                     </div>
                                     <div className="text-center mt-4">
