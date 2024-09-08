@@ -28,6 +28,10 @@ const links = [
         title: 'Blogs'
     },
     {
+        path: '/dashboard',
+        title: 'Dashboard'
+    },
+    {
         path: '/contact',
         title: 'Contact'
     },

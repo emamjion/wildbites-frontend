@@ -1,5 +1,6 @@
+"use client";
+import { signIn } from 'next-auth/react';
 import { FaFacebookF, FaGithub, FaGoogle } from "react-icons/fa";
-
 const SocialLogin = () => {
     return (
         <div className="flex items-center justify-center">
@@ -10,7 +11,9 @@ const SocialLogin = () => {
                 <button className="w-10 h-10 bg-[#f1f1f1] flex items-center justify-center rounded-full">
                     <FaGoogle className="text-xl text-[#4285F4]"/>
                 </button>
-                <button className="w-10 h-10 bg-[#f1f1f1] flex items-center justify-center rounded-full">
+                <button onClick={() =>signIn("github", {
+                    callbackUrl: "http://localhost:3000/dashboard"
+                })} className="w-10 h-10 bg-[#f1f1f1] flex items-center justify-center rounded-full">
                     <FaGithub className="text-xl text-[#2B3137]"/>
                 </button>
             </div>
