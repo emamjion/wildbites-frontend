@@ -63,9 +63,11 @@ const Navbar = () => {
                     <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
                         <PiShoppingCartThin />
                     </button>
-                    <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
-                        <HiOutlineUsers />
-                    </button>
+                    <Link href={'/login'} title="Login">
+                        <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
+                            <HiOutlineUsers />
+                        </button>
+                    </Link>
                     <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
                         <IoHeartOutline />
                     </button>

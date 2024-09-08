@@ -8,7 +8,7 @@ const SpecialServiceSection = () => {
         <section className="border-b">
             <div className="container mx-auto">
                 {/* Service container */}
-                <div className="flex flex-col md:flex-row flex-wrap items-center gap-7 pb-[60px] pt-[57px]">
+                <div className="flex flex-col md:flex-row flex-wrap items-center justify-between pb-[60px] pt-[57px]">
                     <div className="flex flex-col md:flex-row items-center gap-5">
                         <Image
                             src={f1}
