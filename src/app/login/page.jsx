@@ -1,8 +1,14 @@
+"use client";
+
 import Login from "@/components/Login/Login";
+import SocialLogin from "@/components/SocialLogin/SocialLogin";
 import Image from "next/image";
 import Link from "next/link";
 import login from '../../../public/assets/images/login.png';
-const LoginPage = () => {
+const LoginPage = async() => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
     return (
         <div>
             {/* Login Banner */}
@@ -22,7 +28,7 @@ const LoginPage = () => {
                     </div>
                     {/* Login form part */}
                     <div className="w-full lg:w-1/2">
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <div className="mb-[25px]">
                                 <p className="text-sm text-[#333] mb-1.5">Email</p>
                                 <input 
@@ -62,6 +68,11 @@ const LoginPage = () => {
                             <div className="flex items-center gap-1">
                                 <p className="text-[#8c8c8c] text-sm">Haven't any account?</p> <Link className="text-sm font-semibold text-[#721b65]" href={'/signup'}>Signup</Link>
                             </div>
+                        </div>
+                        {/* Social Login */}
+                        <div className="w-full lg:w-3/4">
+                            <div className="border-b border-[#e8e8e8]  my-6"></div>
+                            <SocialLogin/>
                         </div>
                     </div>
                 </div>
