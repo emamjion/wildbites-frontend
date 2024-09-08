@@ -4,83 +4,119 @@
     "image": "https://i.postimg.cc/fRnSpH6h/p-1.webp",
     "title": "Joust Duffle Bag",
     "price": "20.19",
-    "category": "BestSeller"
+    "category": "BestSeller",
+    "rating": "4",
+    "description": "The Joust Duffle Bag is a durable, stylish, and spacious pet carrier, perfect for travel. It features breathable mesh panels, secure zippers, and comfortable handles, ensuring your pet's safety and comfort.",
+    "information": "The Joust Duffle Bag is a premium pet carrier designed for travel. It offers durability with reinforced stitching and secure zippers, ensuring your pet's safety. Breathable mesh panels provide ventilation, while the comfortable handles make carrying easy. Spacious and stylish, it's ideal for pet owners on the go."
   },
   {
     "id": "2",
     "image": "https://i.postimg.cc/QCbDxdfD/p-2.webp",
     "title": "Endeavor Daytripa",
     "price": "33.00",
-    "category": "Trending"
+    "category": "Trending",
+    "rating": "5",
+    "description": "The Endeavor Daytripa is a sleek, versatile daypack designed for everyday adventures. It features durable materials, multiple compartments, and ergonomic straps, ensuring comfort and functionality on the go.",
+    "information": "The Endeavor Daytripa is the perfect companion for daily outings. Crafted from high-quality, water-resistant materials, it offers multiple compartments for organized storage. The ergonomic, padded straps provide comfort during extended wear, while the sleek design makes it suitable for both urban and outdoor adventures. Ideal for those with an active lifestyle."
   },
   {
     "id": "3",
     "image": "https://i.postimg.cc/9QShfSYD/p-3.webp",
     "title": "Impulse Duffle",
     "price": "20.19",
-    "category": "BestSeller"
+    "category": "BestSeller",
+    "rating": "3",
+    "description": "The Impulse Duffle is a stylish, compact travel bag designed for convenience. It features durable fabric, spacious compartments, and a lightweight design, making it perfect for quick getaways.",
+    "information": "The Impulse Duffle combines style and functionality in a compact design. Made from high-quality, water-resistant fabric, it offers ample space with organized compartments for all your essentials. The lightweight construction and comfortable straps make it easy to carry, whether for a weekend trip or a gym session. Ideal for on-the-go individuals."
   },
   {
     "id": "4",
     "image": "https://i.postimg.cc/qBQWRSkp/p-4.webp",
     "title": "Driven Backpack",
     "price": "25.00",
-    "category": "Trending"
+    "category": "Trending",
+    "rating": "4",
+    "description": "The Driven Backpack is a versatile, durable pack designed for active lifestyles. It features multiple compartments, water-resistant fabric, and padded straps, offering comfort and organization for daily use.",
+    "information": "The Driven Backpack is built for those on the move, offering a perfect blend of durability and functionality. Crafted from water-resistant materials, it includes multiple compartments for organized storage. The padded, adjustable straps ensure comfort during long wear, while the sleek design makes it suitable for both work and outdoor activities."
   },
   {
     "id": "5",
     "image": "https://i.postimg.cc/3Jvj60fz/p-5.webp",
     "title": "Fusion Backpack",
     "price": "45.00",
-    "category": "BestSeller"
+    "category": "BestSeller",
+    "rating": "5",
+    "description": "The Fusion Backpack blends modern style with practicality. It features a sleek design, durable construction, and multiple compartments, providing ample storage and comfort for daily commutes or adventures.",
+    "information": "The Fusion Backpack offers a contemporary look with exceptional functionality. Made from robust, water-resistant materials, it includes multiple compartments for efficient organization. The padded, adjustable straps and ergonomic design ensure comfort throughout the day. Perfect for urban commuting or weekend outings, it combines style and practicality seamlessly."
   },
   {
     "id": "6",
     "image": "https://i.postimg.cc/Mp4n89cD/p-6.webp",
     "title": "Savvy Shoulder Tote",
     "price": "30.00",
-    "category": "Trending"
+    "category": "Trending",
+    "rating": "3",
+    "description": "The Savvy Shoulder Tote combines elegance and practicality. Crafted from high-quality materials, it features a spacious interior, stylish design, and comfortable shoulder straps, making it ideal for daily use.",
+    "information": "The Savvy Shoulder Tote is designed for the modern, stylish individual. Made from premium materials, it offers a roomy interior with multiple pockets for organization. The sleek design and comfortable shoulder straps ensure ease of carrying. Perfect for work, shopping, or casual outings, it blends fashion with functionality effortlessly."
   },
   {
     "id": "7",
     "image": "https://i.postimg.cc/Z515Q0gs/p-77.webp",
     "title": "Voyage Yoga Bag",
     "price": "39.00",
-    "category": "BestSeller"
+    "category": "BestSeller",
+    "rating": "5",
+    "description": "The Voyage Yoga Bag is a functional and stylish carrier designed for yogis. It features a spacious compartment, adjustable straps, and durable, water-resistant fabric to securely transport your yoga gear.",
+    "information": "The Voyage Yoga Bag is designed for yoga enthusiasts who value both style and functionality. Made from durable, water-resistant fabric, it includes a spacious main compartment for your mat and accessories. Adjustable straps provide a comfortable fit, while the sleek design makes it a practical choice for transporting your gear to and from class."
   },
   {
     "id": "8",
     "image": "https://i.postimg.cc/P58t1TxW/p-8.webp",
     "title": "Wayfarer Messenger Bag",
     "price": "50.00",
-    "category": "Trending"
+    "category": "Trending",
+    "rating": "5",
+    "description": "The Wayfarer Messenger Bag combines classic style with modern functionality. Featuring a durable exterior, spacious compartments, and an adjustable shoulder strap, its perfect for carrying essentials on the go.",
+    "information": "The Wayfarer Messenger Bag offers a timeless design with practical features. Constructed from sturdy, high-quality materials, it includes multiple compartments for organized storage and an adjustable shoulder strap for comfort. Ideal for daily commutes, business trips, or casual outings, it seamlessly blends style with functionality for the modern traveler."
   },
   {
     "id": "9",
     "image": "https://i.postimg.cc/QCbDxdfD/p-2.webp",
-    "title": "Wayfarer Messenger Bag",
+    "title": "Nourish Naturals",
     "price": "50.00",
-    "category": "Featured"
+    "category": "Featured",
+    "rating": "5",
+    "description": "The Nourish Naturals is designed for the modern professional. With its sleek, durable exterior, ample storage, and adjustable strap, it combines practicality with a sophisticated look for everyday use.",
+    "information": "The Nourish Naturals is perfect for professionals seeking both style and utility. Made from high-grade, durable materials, it features a spacious main compartment, organizational pockets, and an adjustable shoulder strap for comfort. The classic design and versatile functionality make it ideal for work, travel, or casual outings, enhancing your daily routine."
   },
   {
     "id": "10",
     "image": "https://i.postimg.cc/Z515Q0gs/p-77.webp",
-    "title": "Wayfarer Messenger Bag",
+    "title": "Fresh Fusion",
     "price": "50.00",
-    "category": "Featured"
+    "category": "Featured",
+    "rating": "5",
+    "description": "The Fresh Fusion is a sleek, versatile daypack designed for everyday adventures. It features durable materials, multiple compartments, and ergonomic straps, ensuring comfort and functionality on the go.",
+    "information": "The Fresh Fusion is the perfect companion for daily outings. Crafted from high-quality, water-resistant materials, it offers multiple compartments for organized storage. The ergonomic, padded straps provide comfort during extended wear, while the sleek design makes it suitable for both urban and outdoor adventures. Ideal for those with an active lifestyle."
   },
   {
     "id": "11",
     "image": "https://i.postimg.cc/P58t1TxW/p-8.webp",
-    "title": "Wayfarer Messenger Bag",
+    "title": "Artisan Bites",
     "price": "50.00",
-    "category": "OnSell"
+    "category": "OnSell",
+    "rating": "5",
+    "description": "The Artisan Bites is a sleek, versatile daypack designed for everyday adventures. It features durable materials, multiple compartments, and ergonomic straps, ensuring comfort and functionality on the go.",
+    "information": "The Artisan Bites is the perfect companion for daily outings. Crafted from high-quality, water-resistant materials, it offers multiple compartments for organized storage. The ergonomic, padded straps provide comfort during extended wear, while the sleek design makes it suitable for both urban and outdoor adventures. Ideal for those with an active lifestyle."
   },
   {
     "id": "12",
     "image": "https://i.postimg.cc/qBQWRSkp/p-4.webp",
-    "title": "Wayfarer Messenger Bag",
+    "title": "Gourmet Bliss",
     "price": "50.00",
-    "category": "OnSell"
+    "category": "OnSell",
+    "rating": "5",
+    "description": "The Gourmet Bliss exudes sophistication and practicality. Crafted from premium materials, it features a sleek design with ample storage, multiple compartments, and an adjustable strap for comfortable, hands-free carrying.",
+    "information": "The Gourmet Bliss is designed for those who value elegance and functionality. Its high-quality, durable materials ensure long-lasting use, while the spacious interior and multiple compartments keep your belongings organized. The adjustable shoulder strap allows for easy, hands-free carrying, making it ideal for both professional and casual settings."
   }
 ]
