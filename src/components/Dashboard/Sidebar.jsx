@@ -31,6 +31,27 @@ const Sidebar = () => {
             link: '/dashboard/add-blog',
             icon: <MdOutlineArticle  />
         },
+        {
+            title: 'Home', 
+            link: '/',
+            gap: true
+        },
+        {
+            title: 'About', 
+            link: '/about',
+        },
+        {
+            title: 'Shop', 
+            link: '/shop',
+        },
+        {
+            title: 'Blogs', 
+            link: '/blogs',
+        },
+        {
+            title: 'Contact', 
+            link: '/contact',
+        },
     ]
     return (
         <nav className={`bg-[#081a51] h-screen duration-300 p-5 pt-8 ${open ? 'w-72' : 'w-20'} relative`}>

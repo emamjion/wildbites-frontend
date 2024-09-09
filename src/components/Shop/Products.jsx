@@ -37,7 +37,7 @@ const Products = () => {
                                     alt="product image"
                                     width={270}
                                     height={320}
-                                    className="w-full"
+                                    className="w-full hover:scale-105 duration-300"
                                 />
                                 <div className="absolute top-4 right-5 lg:top-4 lg:right-4 bg-white w-[42px] h-[42px] flex items-center justify-center rounded-full cursor-pointer">
                                     <PiHeartThin className="text-2xl "/>
