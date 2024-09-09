@@ -1,9 +1,13 @@
 
 const ProductDetails = ({params}) => {
     return (
-        <div className="container mx-auto pt-[120px] pb-[90px]">
-            <h1>Product Details page</h1>
-        </div>
+        <section className="container mx-auto pt-[120px] pb-[90px]">
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </section>
     );
 };
 
