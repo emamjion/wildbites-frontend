@@ -1,5 +1,8 @@
+"use client";
+import { usePathname } from 'next/navigation';
 import '../../styles/AboutBanner.css';
-const ShopBanner = ({pathname}) => {
+const ShopBanner = () => {
+    const pathname = usePathname();
     return (
         <section className="about-bg pt-[120px] pb-[122px]">
             <div className='container mx-auto'>

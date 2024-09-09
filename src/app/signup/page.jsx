@@ -4,12 +4,17 @@ import SignupBanner from "@/components/Login/SignupBanner";
 import SocialLogin from "@/components/SocialLogin/SocialLogin";
 import Image from "next/image";
 import Link from "next/link";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
+// import { registerUser } from "@/utils/actions/registerUser";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import signup from '../../../public/assets/images/signup.png';
 import '../../styles/AboutBanner.css';
+
+
 const SignupPage = () => {
     const { register, reset, handleSubmit, formState: { errors } } = useForm();
+    const router = useRouter();
     const onSubmit = (data) => {
         const newUser = {
             name : data.name,
@@ -17,19 +22,7 @@ const SignupPage = () => {
             email : data.email,
             password : data.password,
         };
-        console.log(newUser);
-    }
-    
-    
-    /* ========
-    const handleSignup = async(e) => {
-        e.preventDefault();
-        const newUser = {
-            name : e.target.name.value,
-            photoURL : e.target.photo.value,
-            email : e.target.email.value,
-            password : e.target.password.value,
-        };
+        
         fetch('http://localhost:5000/users', {
             method: 'POST',
             headers: {
@@ -47,11 +40,12 @@ const SignupPage = () => {
                     showConfirmButton: false,
                     timer: 1500
                 });
-                e.target.reset();
+                router.push('/login');
+                reset();
             }
         })
     }
-    ====== */
+    
     return (
         <div>
             {/* Login Banner */}

@@ -8,7 +8,7 @@ import { PiHeartThin } from "react-icons/pi";
 const Products = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('./products.json')
+        fetch('http://localhost:5000/products/')
         .then(res => res.json())
         .then(data => setProducts(data))
     }, [])
@@ -23,10 +23,10 @@ const Products = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-[30px]">
                 {
                     products.map(product => (
-                        <Link href={`/shop/${product.id}`} key={product.id}>
+                        <Link href={`/shop/${product._id}`} key={product._id}>
                             <motion.div 
                                 className="cursor-pointer" 
-                                id={product.id}
+                                id={product._id}
                                 
                                 initial={{ opacity: 0, x: 10 }} 
                                 whileInView={{ opacity: 1, x: 0 }} 
