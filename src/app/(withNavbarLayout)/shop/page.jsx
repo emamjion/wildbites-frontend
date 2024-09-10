@@ -5,7 +5,7 @@ import { PiHeartThin } from "react-icons/pi";
 
 const ShopPage = async() => {
     // const pathname = usePathname();
-    const res = await fetch('http://localhost:5000/products/');
+    const res = await fetch('https://wildbites-backend.vercel.app/products/');
     const products = await res.json();
     return (
         <div>

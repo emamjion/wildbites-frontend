@@ -5,9 +5,8 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { IoEyeOutline } from "react-icons/io5";
 
 const ProductDetails = async({params}) => {
-    const res = await fetch(`http://localhost:5000/products/${params.productId}`);
+    const res = await fetch(`https://wildbites-backend.vercel.app/products/${params.productId}`);
     const product = await res.json();
-    console.log(product);
     return (
         <section className="container mx-auto pt-[120px] pb-[90px]">
             <div>
@@ -31,13 +30,13 @@ const ProductDetails = async({params}) => {
                                 $<span>{product.price}</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <p>
+                                <div>
                                     <Rating
                                         style={{ maxWidth: 80 }}
                                         value={product.rating}
                                         readOnly
                                     />
-                                </p>
+                                </div>
                                 <p className="text-[#929191]">(5 Customer Review)</p>
                             </div>
                             <div className="border-b border-[#e8e8e8] my-8"></div>
@@ -65,7 +64,7 @@ const ProductDetails = async({params}) => {
                                 </div>
                             </div>
                             {/* Description and Information */}
-                            
+
                         </div>
                     </div>
                 </div>

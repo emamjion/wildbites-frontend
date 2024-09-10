@@ -11,6 +11,7 @@
   "dependencies": {
     "@smastrom/react-rating": "^1.5.0",
     "build": "^0.1.4",
+    "dotenv": "^16.4.5",
     "framer-motion": "^11.3.30",
     "next": "14.2.6",
     "next-auth": "^4.24.7",

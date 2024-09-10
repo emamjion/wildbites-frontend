@@ -1,14 +1,12 @@
 "use client";
 
-import { signOut } from "next-auth/react";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaCookieBite } from "react-icons/fa";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { IoHeartOutline } from "react-icons/io5";
-import { MdLogout, MdMenu } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 import { PiShoppingCartThin } from "react-icons/pi";
 import ResponsiveMenu from "./ResponsiveMenu";
 
@@ -73,40 +71,13 @@ const Navbar = ({session}) => {
                         <IoHeartOutline />
                     </button>
                     <div>
-                        {
-                            !session?.user ? (
-                                <>
-                                    <Link href={'/login'} title="Login">
-                                        <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
-                                            <HiOutlineUsers />
-                                        </button>
-                                    </Link>
-                                </>
-                            ) : (
-                                <button onClick={() => signOut()} className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
-                                    <MdLogout/>
-                                </button>
-                            )
-                        }
+                        <Link href={'/login'} title="Login">
+                            <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
+                                <HiOutlineUsers />
+                            </button>
+                        </Link>
                     </div>
                     
-                    <div className="ml-3">
-                        {
-                            session?.user && (
-                                <>
-                                    <div>
-                                        <Image
-                                            src={session?.user?.image}
-                                            alt="Avater"
-                                            width={36}
-                                            height={36}
-                                            className="rounded-full cursor-pointer"
-                                        />
-                                    </div>
-                                </>
-                            )
-                        }
-                    </div>
                     {/* <button className="hover:bg-primary text-primary hover:text-white rounded-md border-2 border-primary px-8 py-2 duration-300 hidden md:block font-semibold" >
                         Login
                     </button> */}
